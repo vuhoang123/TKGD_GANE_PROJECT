@@ -12,13 +12,13 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-      <Suspense fallback={Loading}>
-      <Routes>
-          <Route path="/" element={LandingPage} exact />
-          <HomeTemplate path="/home" element={Home} exact />
-          <Route path="*" element={NotFound} />
-        </Routes>
-      </Suspense>
+        <Suspense fallback={Loading}>
+          <Routes>
+            <Route path="/" element={LandingPage} exact />
+            <HomeTemplate path="/home" element={Home} />
+            <Route path="*" element={NotFound} />
+          </Routes>
+        </Suspense>
       </BrowserRouter>
     </div>
   );
