@@ -1,28 +1,16 @@
-import React, { Fragment, useEffect } from "react";
-import { Route } from "react-router-dom";
-import Footer from "./Layout/Footer/Footer";
+import React from "react";
+import { Outlet } from "react-router-dom";
+
 import Header from "./Layout/Header/Header";
+import Footer from "./Layout/Footer/Footer";
 
-function HomeTemplate(props) {
-  // path, exact, Component
-  const { Component, ...restProps } = props;
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+function HomeTemplate() {
   return (
-    <Route
-      {...restProps}
-      render={(propsRoute) => {
-        return (
-          <Fragment>
-            <Header {...propsRoute} />
-            <Component {...propsRoute} />
-            <Footer {...propsRoute} />
-          </Fragment>
-        );
-      }}
-    />
+    <div>
+      <Header />
+      <Outlet />
+      <Footer />
+    </div>
   );
 }
 
