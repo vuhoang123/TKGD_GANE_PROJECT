@@ -1,5 +1,22 @@
-#Header{
-    height: 400px;
-    background-color: black;
-    color: #fff;
+#Header {
+  background-color: blueviolet;
+  color: #fff;
+  width: 100%;
+  a {
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    &:focus,
+    &:hover {
+      color: #ffa3a3;
+    }
+  }
+  .form-control {
+    outline: none !important;
+    box-shadow: none;
+  }
+  .btn-search {
+    background-color: #ffa3a3;
+    box-shadow: none !important;
+  }
 }
