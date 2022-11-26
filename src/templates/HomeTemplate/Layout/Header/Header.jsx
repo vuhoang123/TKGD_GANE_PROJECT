@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.scss";
-import logo from "/public/vite.svg";
-import { NavLink } from "react-router-dom/dist";
+import logo from "/src/assets/image/logo.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
