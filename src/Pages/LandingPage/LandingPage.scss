@@ -1,5 +1,5 @@
 .landing-page {
-  background-image: url("./../../assets/image/landing-page-bg.jpg");
+  background-image: url("./../../assets/image/bg-test.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -171,8 +171,9 @@
     //BUTTON
     .btn {
       cursor: pointer;
-      border-radius: 40px;
+      border-radius: 10px;
       box-shadow: none !important;
+      padding: 10px 30px;
       font-size: 15px;
       text-transform: uppercase;
       &:hover,
