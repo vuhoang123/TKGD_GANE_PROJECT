@@ -1,6 +1,8 @@
 #PaymentTemplate {
     .header {
-
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
         nav {
             width: calc(100% - 100px);
             margin: 0 auto;

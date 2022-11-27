@@ -1,0 +1,107 @@
+.ProductDetail {
+    padding: 100px 0;
+
+    .item-box {
+        padding: 40px;
+        background-color: #fff;
+        margin-bottom: 60px;
+
+        .content {
+            display: flex;
+            justify-content: flex-start;
+            gap: 50px;
+
+            .thumbnail {
+                // width: 15%;
+            }
+
+            .detail {
+                text-align: left;
+
+                // width: 43%;
+                .title {
+                    font-size: 32px;
+                }
+
+                .vote {
+                    display: flex;
+                    gap: 40px;
+                }
+
+                .brand {
+                    font-size: 20px;
+                    margin-top: 20px;
+
+                    span {
+                        color: #3447ED;
+                    }
+                }
+
+                .price {
+                    color: #FF0000;
+                    font-size: 32px;
+                }
+            }
+
+            .action {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                .sumary {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 50px;
+
+                    .count {
+                        display: flex;
+                        gap: 10px;
+                        font-size: 22px;
+
+                        .minus {
+                            width: 35px;
+                            height: 35px;
+                            background-color: #d7d7d7;
+                        }
+
+                        .plus {
+                            background-color: #A6A3A3;
+                            width: 35px;
+                            height: 35px;
+                        }
+                    }
+                }
+
+                .btn-action {
+                    margin-top: 36px;
+                    display: flex;
+                    gap: 44px;
+
+                    button {
+                        width: 220px;
+                        height: 45px;
+                        border: none;
+                        border-radius: 8px;
+                        color: #fff;
+                        font-size: 15px;
+                        font-weight: 600;
+
+                        &:hover {
+                            background-color: #A6A3A3;
+
+                        }
+                    }
+
+                    .add {
+                        background-color: #FF8E8E;
+                    }
+
+                    .buy {
+                        background-color: #FC5252;
+                    }
+                }
+            }
+        }
+    }
+}
