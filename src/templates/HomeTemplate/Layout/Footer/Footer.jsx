@@ -99,19 +99,19 @@ function Footer() {
             <div className=" d-flex flex-column align-items-center justyfy-content-center gap-4">
               <img src={QR}></img>
               <div className="d-flex gap-3">
-                <button class=" d-flex align-items-center justify-content-around btn btn-outline-light btn-icon-text btn-download px-1">
-                  <i class="fa-brands fa-apple btn-icon-prepend icon "></i>
-                  <span class="d-inline-block text-left">
-                    <small class="font-weight-light d-flex text-left">
+                <button className=" d-flex align-items-center justify-content-around btn btn-outline-light btn-icon-text btn-download px-1">
+                  <i className="fa-brands fa-apple btn-icon-prepend icon "></i>
+                  <span className="d-inline-block text-left">
+                    <small className="font-weight-light d-flex text-left">
                       Available on the
                     </small>
                     App Store
                   </span>
                 </button>
-                <button class="d-flex align-items-center justify-content-around btn btn-outline-light btn-icon-text btn-download px-1">
-                  <i class="fa-brands fa-google-play btn-icon-prepend icon"></i>
-                  <span class="d-inline-block text-left">
-                    <small class="font-weight-light d-flex text-left">
+                <button className="d-flex align-items-center justify-content-around btn btn-outline-light btn-icon-text btn-download px-1">
+                  <i className="fa-brands fa-google-play btn-icon-prepend icon"></i>
+                  <span className="d-inline-block text-left">
+                    <small className="font-weight-light d-flex text-left">
                       Get it on
                     </small>
                     Google Play
