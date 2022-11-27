@@ -36,71 +36,66 @@ function Footer() {
               </ul>
             </div>
             <div className="col-3">
-              <p>Product</p>
+              <p>Company</p>
               <hr className="line" />
               <ul>
                 <li>
-                  <a>Landing Page</a>
+                  <a>About us</a>
                 </li>
                 <li>
-                  <a>News</a>
+                  <a>Careers</a>
                 </li>
                 <li>
-                  <a>Gamming Gear</a>
+                  <a>FAQs</a>
                 </li>
                 <li>
-                  <a>Content</a>
-                </li>
-                <li>
-                  <a>Community</a>
+                  <a>Team</a>
                 </li>
               </ul>
             </div>
             <div className="col-3">
-              <p>Product</p>
+              <p>Follow us</p>
               <hr className="line" />
               <ul>
-                <li>
-                  <a>Landing Page</a>
+                <li className="d-flex align-items-center gap-1">
+                  <i className=" fa-brands fa-facebook" />
+                  <a>Facebook</a>
                 </li>
-                <li>
-                  <a>News</a>
+                <li className="d-flex align-items-center gap-1">
+                  <i className=" fa-brands fa-twitter" />
+                  <a>Twitter</a>
                 </li>
-                <li>
-                  <a>Gamming Gear</a>
+                <li className="d-flex align-items-center gap-1">
+                  <i className=" fa-brands fa-instagram" />
+                  <a>Instagram</a>
                 </li>
-                <li>
-                  <a>Content</a>
-                </li>
-                <li>
-                  <a>Community</a>
+                <li className="d-flex align-items-center gap-1">
+                  <i className=" fa-brands fa-youtube" />
+                  <a>Youtube</a>
                 </li>
               </ul>
             </div>
             <div className="col-3">
-              <p>Product</p>
+              <p>Contact</p>
               <hr className="line" />
               <ul>
-                <li>
-                  <a>Landing Page</a>
+                <li className="d-flex align-items-center gap-1">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <a>Dĩ An, Bình Dương</a>
                 </li>
-                <li>
-                  <a>News</a>
+                <li className="d-flex align-items-center gap-1">
+                  <i class="fa-regular fa-envelope"></i>
+                  <a>ganeinc@gmail.com</a>
                 </li>
-                <li>
-                  <a>Gamming Gear</a>
-                </li>
-                <li>
-                  <a>Content</a>
-                </li>
-                <li>
-                  <a>Community</a>
+                <li className="d-flex align-items-center gap-1">
+                  <i class="fa-solid fa-phone"></i>
+                  <a>0009990009</a>
                 </li>
               </ul>
             </div>
           </div>
           <hr className="vertical-line" />
-          <div className="col-3">
+          <div className="col-3 left-content">
             <div className=" d-flex flex-column align-items-center justyfy-content-center gap-4">
               <img src={QR}></img>
               <div className="d-flex gap-3">
