@@ -8,9 +8,9 @@ function Header() {
     <header id="Header" className="sticky-top">
       <nav className="navbar navbar-expand-lg navbar-light p-3 shadow-sm ">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/home">
             <img src={logo} />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -47,18 +47,18 @@ function Header() {
             </div>
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link mx-2 text-uppercase active"
                   aria-current="page"
-                  href="#"
+                  to="/home"
                 >
                   HOME
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link mx-2 text-uppercase" href="#">
+                <Link className="nav-link mx-2 text-uppercase" to="news">
                   NEWS
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link mx-2 text-uppercase" href="#">
@@ -66,16 +66,16 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link mx-2 text-uppercase" href="#">
+                <Link className="nav-link mx-2 text-uppercase" to="shop">
                   SHOP
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item">
-                <a className="nav-link mx-2 text-uppercase" href="#">
+                <Link className="nav-link mx-2 text-uppercase" to="profile">
                   <i className="fa-solid fa-circle-user me-1" /> Account
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
