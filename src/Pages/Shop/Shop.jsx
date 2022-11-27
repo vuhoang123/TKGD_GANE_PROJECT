@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import "./Shop.scss";
 
 function Shop() {
-  return (
-    <div>Shop</div>
-  )
+  return <div className="Shop">Shop</div>;
 }
 
-export default Shop
+export default Shop;
