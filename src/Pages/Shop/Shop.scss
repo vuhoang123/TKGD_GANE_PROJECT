@@ -1,3 +1,119 @@
-.Shop{
-    
+.Shop {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .bread {
+        border-bottom: 3px solid #00BADB;
+        text-align: left;
+
+        .title {
+            width: 250px;
+            height: 50px;
+            background-color: #00BADB;
+            font-weight: 600;
+            font-size: 22px;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .trend {
+        margin: 0 auto;
+        margin-top: 25px;
+        width: calc(100% - 88px);
+        display: flex;
+        justify-content: space-between;
+
+        .item {
+            .trend-name {
+                text-transform: uppercase;
+                font-size: 15px;
+                color: #fff;
+                font-weight: 600;
+                line-height: 20px;
+            }
+            &:hover{
+                .thumbnail{
+                    cursor: pointer;
+                    transform: scale(1.1);
+                    transition: all 0.3s;
+                }
+            }
+        }
+    }
+
+    .best-seller {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+
+        .col {
+            .item {
+                padding: 20px;
+                padding-bottom: 50px;
+                text-align: left;
+                background-color: #fff;
+                &:hover{
+                    transform: scale(1.1);
+                    transition: all 0.5s;
+                    cursor: pointer;
+                }
+
+                .thumbnail {
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .brand {
+                    color: #aaa;
+                    font-size: 15px;
+                }
+
+                .title {
+                    color: #1D2864;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+                .vote{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .star{
+                        color: rgb(255, 188, 4);
+                    }
+                    .rate{
+                        font-size: 10px;
+                        font-weight: 600;
+                        color: #aaa;
+                    }
+                }
+                .buy{
+                    margin-top: 8px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .price{
+                        color: #339999;
+                        font-weight: 600;
+                        font-size: 15px;
+                    }
+                    button{
+                        width: 76px;
+                        height: 30px;
+                        border: none;
+                        border-radius: 8px;
+                        background-color: #FFA3A3;
+                        &:hover{
+                            background-color: #aaa;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
