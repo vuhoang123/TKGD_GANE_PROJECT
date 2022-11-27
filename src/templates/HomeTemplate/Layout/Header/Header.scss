@@ -7,7 +7,8 @@
     font-weight: 700;
     color: white;
     &:focus,
-    &:hover {
+    &:hover,
+    &:active {
       color: #ffa3a3;
     }
   }
