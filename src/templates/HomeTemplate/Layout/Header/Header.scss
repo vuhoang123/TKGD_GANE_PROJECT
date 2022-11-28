@@ -20,4 +20,15 @@
     background-color: #ffa3a3;
     box-shadow: none !important;
   }
+  .cart{
+    width: 42px;
+    height: 42px;
+    &:hover{
+      background-color: #fff;
+      border-radius: 9px;
+      a{
+        color: transparent;
+      }
+    }
+  }
 }
