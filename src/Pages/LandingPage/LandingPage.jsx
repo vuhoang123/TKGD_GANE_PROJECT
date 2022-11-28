@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./LandingPage.scss";
 import logoLanding from "/src/assets/image/Lol_worlds_logo.svg";
 function LandingPage() {
@@ -12,7 +13,9 @@ function LandingPage() {
           <div className="logo">
             <img src={logoLanding} />
           </div>
-          <button className="btn btn-start">STARTED</button>
+          <Link to="/home">
+            <button className="btn btn-start">STARTED</button>
+          </Link>
         </div>
         <div className="login-form col-4">
           <div className="login-wrap p-0">
