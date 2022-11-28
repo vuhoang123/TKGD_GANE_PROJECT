@@ -1,6 +1,7 @@
 .Shop {
     padding-top: 100px;
     padding-bottom: 100px;
+
     .bread {
         border-bottom: 3px solid #00BADB;
         text-align: left;
@@ -33,8 +34,9 @@
                 font-weight: 600;
                 line-height: 20px;
             }
-            &:hover{
-                .thumbnail{
+
+            &:hover {
+                .thumbnail {
                     cursor: pointer;
                     transform: scale(1.1);
                     transition: all 0.3s;
@@ -55,16 +57,17 @@
                 padding-bottom: 50px;
                 text-align: left;
                 background-color: #fff;
-                &:hover{
-                    transform: scale(1.1);
-                    transition: all 0.5s;
-                    cursor: pointer;
-                }
 
                 .thumbnail {
                     img {
                         width: 100%;
                         height: 100%;
+                    }
+
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: all 0.5s;
+                        cursor: pointer;
                     }
                 }
 
@@ -78,36 +81,43 @@
                     font-size: 15px;
                     font-weight: 600;
                 }
-                .vote{
+
+                .vote {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    .star{
+
+                    .star {
                         color: rgb(255, 188, 4);
                     }
-                    .rate{
+
+                    .rate {
                         font-size: 10px;
                         font-weight: 600;
                         color: #aaa;
                     }
                 }
-                .buy{
+
+                .buy {
                     margin-top: 8px;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    .price{
+
+                    .price {
                         color: #339999;
                         font-weight: 600;
                         font-size: 15px;
                     }
-                    button{
+
+                    button {
                         width: 76px;
                         height: 30px;
                         border: none;
                         border-radius: 8px;
                         background-color: #FFA3A3;
-                        &:hover{
+
+                        &:hover {
                             background-color: #aaa;
                             color: #fff;
                         }

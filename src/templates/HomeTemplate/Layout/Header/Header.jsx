@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header id="Header" className="sticky-top">
+    <header id="Header">
       <nav className="navbar navbar-expand-lg navbar-light p-3 shadow-sm ">
         <div className="container">
           <Link className="navbar-brand" to="/home">
@@ -72,6 +72,11 @@ function Header() {
               </li>
             </ul>
             <ul className="navbar-nav ms-auto ">
+              <li className="cart">
+                <Link to="cart">
+                  <img className="w-100" src="/src/assets/image/cart.png" />
+                </Link>
+              </li>
               <li className="nav-item">
                 <Link className="nav-link mx-2 text-uppercase" to="profile">
                   <i className="fa-solid fa-circle-user me-1" /> Account

@@ -16,6 +16,6 @@ export const HomeTemplateRoutes = [
   { path: "/news", Element: News },
   { path: "/newsDetail", Element: NewsDetail },
   { path: "/shop", Element: Shop },
-  { path: "/productDetail/:id", Element: ProductDetail },
+  { path: "/productDetail", Element: ProductDetail },
   { path: "/cart", Element: Cart },
 ];

@@ -62,7 +62,7 @@ function Shop() {
         <div className="best-seller">
           <div className="col">
             <div className="item">
-              <div className="thumbnail">
+              <div className="thumbnail" onClick={() => navigate("/productDetail")}>
                 <img src="/src/assets/image/seller1.png" />
               </div>
               <div className="content">
@@ -87,7 +87,7 @@ function Shop() {
           </div>
           <div className="col">
             <div className="item">
-              <div className="thumbnail">
+              <div className="thumbnail" onClick={() => navigate("/productDetail")}>
                 <img src="/src/assets/image/seller2.png" />
               </div>
               <div className="content">
@@ -105,14 +105,14 @@ function Shop() {
                 </div>
                 <div className="buy">
                   <span className="price">Từ 605.000₫</span>
-                  <button onClick={() => navigate("/payment")}>Mua</button>{" "}
+                  <button onClick={() => navigate("/payment")}>Mua</button>
                 </div>
               </div>
             </div>
           </div>
           <div className="col">
             <div className="item">
-              <div className="thumbnail">
+              <div className="thumbnail" onClick={() => navigate("/productDetail")}>
                 <img src="/src/assets/image/seller3.png" />
               </div>
               <div className="content">
@@ -130,14 +130,14 @@ function Shop() {
                 </div>
                 <div className="buy">
                   <span className="price">4.180.000₫</span>
-                  <button onClick={() => navigate("/payment")}>Mua</button>{" "}
+                  <button onClick={() => navigate("/payment")}>Mua</button>
                 </div>
               </div>
             </div>
           </div>
           <div className="col">
             <div className="item">
-              <div className="thumbnail">
+              <div className="thumbnail" onClick={()=>navigate("/productDetail")}>
                 <img src="/src/assets/image/seller4.png" />
               </div>
               <div className="content">
@@ -155,14 +155,14 @@ function Shop() {
                 </div>
                 <div className="buy">
                   <span className="price">Từ 715.000₫</span>
-                  <button onClick={() => navigate("/payment")}>Mua</button>{" "}
+                  <button onClick={() => navigate("/payment")}>Mua</button>
                 </div>
               </div>
             </div>
           </div>
           <div className="col">
             <div className="item">
-              <div className="thumbnail">
+              <div className="thumbnail" onClick={()=>navigate("/productDetail")}>
                 <img src="/src/assets/image/seller5.png" />
               </div>
               <div className="content">
@@ -180,7 +180,7 @@ function Shop() {
                 </div>
                 <div className="buy">
                   <span className="price">380.000₫</span>
-                  <button onClick={() => navigate("/payment")}>Mua</button>{" "}
+                  <button onClick={() => navigate("/payment")}>Mua</button>
                 </div>
               </div>
             </div>
