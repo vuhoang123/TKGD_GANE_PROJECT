@@ -1,0 +1,113 @@
+.Home {
+  text-align: start;
+
+  .container {
+    .bread {
+      border-bottom: 3px solid #ffa3a3;
+      text-align: left;
+      .title {
+        width: 250px;
+        height: 50px;
+        background-color: #ffa3a3;
+        font-weight: 600;
+        font-size: 22px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .content-box {
+      padding: 20px;
+      margin: 20px 0;
+      img {
+        width: 300px;
+        height: auto;
+      }
+      .title {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+      .detail {
+        margin-top: 30px;
+        font-size: 14;
+      }
+    }
+    .content-box-small {
+      padding: 12px;
+      margin: 20px 0;
+      max-height: 208px;
+      img {
+        width: auto;
+        height: 79px;
+      }
+      .title {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+.work {
+  margin-top: 240px;
+}
+.container_work {
+  text-align: center;
+}
+.container_work .title h1 {
+  font-size: 80px;
+  margin-bottom: 100px;
+}
+.container_work .work_content {
+}
+.container_work .work_content .work_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.container_work .work_content img {
+  width: 100%;
+}
+.work .grid_item {
+  position: relative;
+  overflow: hidden;
+}
+.work .detail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  color: black;
+  transition: all 800ms;
+  transform: translateY(250px);
+  text-align: left;
+}
+.work .detail h3 {
+  font-size: 45px;
+  line-height: 54px;
+  margin: 10px 30px;
+}
+.work .detail p {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 10px 30px;
+}
+.work .detail a {
+  font-size: 20px;
+  line-height: 24px;
+  padding: 10px 30px 30px 30px;
+  display: inline-block;
+  font-weight: 600;
+  cursor: pointer;
+}
+.work .detail a:hover {
+  color: red;
+}
+.arrow {
+  vertical-align: middle;
+}
+
+.work .grid_item:hover .detail {
+  transform: translateY(0px);
+}
