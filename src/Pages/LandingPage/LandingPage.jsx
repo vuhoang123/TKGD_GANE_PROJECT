@@ -4,8 +4,8 @@ import "./LandingPage.scss";
 import logoLanding from "/src/assets/image/Lol_worlds_logo.svg";
 function LandingPage() {
   return (
-    <div className="landing-page">
-      <div className="container d-flex justify-content-center align-items-center row">
+    <div id="landing-page">
+      <div className="container d-flex justify-content-center align-items-center h-100">
         <div className=" col-4 left-content">
           <h1>SLOGAN</h1>
         </div>

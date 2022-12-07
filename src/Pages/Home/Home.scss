@@ -1,5 +1,6 @@
-.Home {
+#Home {
   text-align: start;
+  padding-top: 100px;
   a {
     text-decoration: none;
   }
@@ -54,6 +55,8 @@
   }
   .container_work {
     text-align: center;
+    width: 900px;
+    margin: 0 auto;
   }
   .container_work .title h1 {
     font-size: 80px;
@@ -63,6 +66,7 @@
   .container_work .work_content .work_grid {
     display: grid;
     grid-template-columns: auto auto;
+    grid-gap: 30px;
   }
   .container_work .work_content img {
     width: 100%;
@@ -70,6 +74,7 @@
   .work .grid_item {
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
   }
   .work .detail {
     position: absolute;
@@ -78,8 +83,9 @@
     background-color: #fff;
     color: black;
     transition: all 800ms;
-    transform: translateY(250px);
+    transform: translateY(220px);
     text-align: left;
+    box-shadow: inset 0px 0px 30px 5px #ffa3a3;
   }
   .work .detail h3 {
     font-size: 34px;
