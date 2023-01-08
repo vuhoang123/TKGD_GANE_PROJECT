@@ -22,11 +22,13 @@
     .trend {
         margin: 0 auto;
         margin-top: 25px;
-        width: calc(100% - 88px);
+        padding: 0 15px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 
         .item {
+            flex: auto;
             .trend-name {
                 text-transform: uppercase;
                 font-size: 15px;
@@ -48,7 +50,8 @@
     .best-seller {
         margin-top: 40px;
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content:center;
         gap: 40px;
 
         .col {

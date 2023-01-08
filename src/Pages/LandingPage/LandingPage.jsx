@@ -5,16 +5,16 @@ import logoLanding from "/src/assets/image/Lol_worlds_logo.svg";
 function LandingPage() {
   return (
     <div id="landing-page">
-      <div className="container d-flex justify-content-center align-items-center h-100">
+      <div className="container d-flex justify-content-center align-items-center h-100 w-100">
         <div className=" col-4 left-content">
           <h1>SLOGAN</h1>
         </div>
         <div className="mid-content col-4">
           <div className="logo">
-            <img src={logoLanding} />
+            <img className="w-100" src={logoLanding} />
           </div>
           <Link to="/home">
-            <button className="btn btn-start">STARTED</button>
+            <button className="btn btn-start">Get STARTED</button>
           </Link>
         </div>
         <div className="login-form col-4">
