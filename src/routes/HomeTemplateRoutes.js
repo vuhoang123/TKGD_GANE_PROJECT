@@ -9,6 +9,8 @@ const ProductDetail = lazy(() =>
 );
 const Cart = lazy(() => import("./../Pages/Cart/Cart"));
 const Profile = lazy(() => import("./../Pages/Profile/Profile"));
+const ForumList = lazy(() => import("./../Pages/Forum/ForumList"));
+const ForumHome = lazy(() => import("./../Pages/Forum/ForumHome"));
 
 export const HomeTemplateRoutes = [
   { path: "/home", Element: Home },
@@ -18,4 +20,6 @@ export const HomeTemplateRoutes = [
   { path: "/shop", Element: Shop },
   { path: "/productDetail", Element: ProductDetail },
   { path: "/cart", Element: Cart },
+  {path: "/forum-list", Element: ForumList},
+  {path: "/forum-detail", Element: ForumHome}
 ];

@@ -61,9 +61,9 @@ function Header() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link mx-2 text-uppercase" href="#">
+                <NavLink className="nav-link mx-2 text-uppercase" to="forum-list">
                   FORUM
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link mx-2 text-uppercase" to="shop">
