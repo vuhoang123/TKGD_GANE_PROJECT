@@ -1,0 +1,113 @@
+#ModalLogin {
+    .modal-content {
+        background-color: #232930;
+        border: none;
+        border-radius: 0;
+
+        .modal-header {
+            h4 {
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 1.2rem;
+
+                span {
+                    color: #dd163b;
+                }
+            }
+
+            .btn-close {
+                color: #fff;
+                background-color: #fff;
+            }
+        }
+
+        .modal-body {
+            .nk-form {
+                .form-control {
+                    margin-top: 15px;
+                    padding: 6.5px 10px;
+                    font-size: 1em;
+                    font-weight: 400;
+                    color: #fff;
+                    background-color: transparent;
+                    border: 1px solid #303e47;
+                    border-radius: 0;
+                    transition: .15s border-color;
+
+                    &:focus {
+                        color: #fff;
+                        background-color: transparent;
+                        border-color: #dd163b;
+                        box-shadow: none;
+                    }
+                }
+
+                .nk-social-links-2 {
+                    display: flex;
+                    list-style-type: none;
+                    padding: 0;
+
+                    a {
+                        display: block;
+                        width: 26px;
+                        height: 26px;
+                        margin: 3px 5px;
+                        font-size: 1.1em;
+                        line-height: 26px;
+                        background-color: #fff;
+                        border-radius: 13px;
+                        color: #171e22;
+                        text-align: center;
+                        cursor: pointer;
+                        transition: .15s background-color, .15s color;
+
+                        &:hover {
+                            color: #fff;
+                            background-color: #00b6f1;
+                        }
+                    }
+                }
+
+                .nk-btn {
+                    margin-top: 15px;
+                    display: block;
+                    width: 100%;
+                    color: #171e22;
+                    border-radius: 4px;
+                    background-color: #fff;
+                    border-color: #e0e0e0;
+                    border-style: solid;
+                    padding: 9px 19px;
+                    font-family: "Montserrat", sans-serif;
+                    font-size: .87rem;
+                    font-weight: 600;
+                    line-height: 1.2;
+                    text-align: center;
+                    text-transform: uppercase;
+                    white-space: nowrap;
+                    vertical-align: middle;
+                    cursor: pointer;
+                    text-decoration: none;
+                    transition: .15s all;
+
+                    &:hover {
+                        background-color: #e0e0e0;
+                        border-color: #d1d1d1;
+                    }
+                }
+
+                .mnt-5 {
+                    a {
+                        color: #dd163b;
+                        transition: .15s color;
+                        text-decoration: none;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

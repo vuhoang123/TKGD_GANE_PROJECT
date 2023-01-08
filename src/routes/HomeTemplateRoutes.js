@@ -8,6 +8,8 @@ const ProductDetail = lazy(() =>
   import("./../Pages/ProductDetail/ProductDetail")
 );
 const Cart = lazy(() => import("./../Pages/Cart/Cart"));
+const ForumList = lazy(() => import("./../Pages/Forum/ForumList"));
+const ForumHome = lazy(() => import("./../Pages/Forum/ForumHome"));
 
 export const HomeTemplateRoutes = [
   { path: "/home", Element: Home },

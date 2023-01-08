@@ -66,7 +66,10 @@ function Header() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link mx-2 text-uppercase" to="forum-list">
+                <NavLink
+                  className="nav-link mx-2 text-uppercase"
+                  to="forum-list"
+                >
                   FORUM
                 </NavLink>
               </li>
@@ -83,7 +86,10 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link mx-2 text-uppercase" onClick={()=>handleShow}>
+                <NavLink
+                  className="nav-link mx-2 text-uppercase"
+                  onClick={() => handleShow()}
+                >
                   <i className="fa-solid fa-circle-user me-1" /> Account
                 </NavLink>
               </li>
@@ -91,7 +97,7 @@ function Header() {
           </div>
         </div>
       </nav>
-      <ModalLogin handleClose={handleClose} show={show}/>
+      <ModalLogin handleClose={handleClose} show={show} />
     </header>
   );
 }
