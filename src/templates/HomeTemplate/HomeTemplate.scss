@@ -1,5 +1,7 @@
 #HomeTemplate {
-  background-image: url("./../../assets/image/bg-test.jpg");
+  // background-image: url("./../../assets/image/bg-test.jpg");
+  // background-color: #1C4C64;
+  backdrop-filter: invert(90%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
