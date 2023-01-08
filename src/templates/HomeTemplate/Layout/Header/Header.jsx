@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.scss";
 import logo from "/src/assets/image/logo.png";
 import { Link, NavLink } from "react-router-dom";
+import ModalLogin from "/src/Modal/ModalLogin";
 
 function Header() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <header id="Header">
       <nav className="navbar navbar-expand-lg navbar-light p-3 shadow-sm ">
@@ -78,7 +83,7 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link mx-2 text-uppercase" to="profile">
+                <NavLink className="nav-link mx-2 text-uppercase" onClick={()=>handleShow}>
                   <i className="fa-solid fa-circle-user me-1" /> Account
                 </NavLink>
               </li>
@@ -86,6 +91,7 @@ function Header() {
           </div>
         </div>
       </nav>
+      <ModalLogin handleClose={handleClose} show={show}/>
     </header>
   );
 }
