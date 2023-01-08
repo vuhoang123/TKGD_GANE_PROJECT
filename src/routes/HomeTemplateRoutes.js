@@ -16,4 +16,6 @@ export const HomeTemplateRoutes = [
   { path: "/shop", Element: Shop },
   { path: "/productDetail", Element: ProductDetail },
   { path: "/cart", Element: Cart },
+  {path: "/forum-list", Element: ForumList},
+  {path: "/forum-detail", Element: ForumHome}
 ];
