@@ -6,14 +6,14 @@ function Footer() {
   return (
     <footer id="Footer">
       <div className="container">
-        <div className="row">
+        <div className="row flex-wrap">
           <div className="col-3">
             <div className="logo">
               <img src={logo} />
               <p>Trang web tin tức và mua sắm gaming gear hàng đầu Việt Nam</p>
             </div>
           </div>
-          <div className="col-6 row mid-content">
+          <div className="col-6 row mid-content flex-wrap">
             <div className="col-3">
               <p>Product</p>
               <hr className="line" />

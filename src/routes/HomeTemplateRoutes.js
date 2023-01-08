@@ -8,13 +8,11 @@ const ProductDetail = lazy(() =>
   import("./../Pages/ProductDetail/ProductDetail")
 );
 const Cart = lazy(() => import("./../Pages/Cart/Cart"));
-const Profile = lazy(() => import("./../Pages/Profile/Profile"));
 const ForumList = lazy(() => import("./../Pages/Forum/ForumList"));
 const ForumHome = lazy(() => import("./../Pages/Forum/ForumHome"));
 
 export const HomeTemplateRoutes = [
   { path: "/home", Element: Home },
-  { path: "/profile", Element: Profile },
   { path: "/news", Element: News },
   { path: "/newsDetail", Element: NewsDetail },
   { path: "/shop", Element: Shop },
