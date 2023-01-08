@@ -60,7 +60,7 @@ function Shop() {
         </div>
 
         <div className="best-seller">
-          <div className="col">
+          <div className="col col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="item">
               <div className="thumbnail" onClick={() => navigate("/productDetail")}>
                 <img src="/src/assets/image/seller1.png" />
@@ -85,7 +85,7 @@ function Shop() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="item">
               <div className="thumbnail" onClick={() => navigate("/productDetail")}>
                 <img src="/src/assets/image/seller2.png" />
@@ -110,7 +110,7 @@ function Shop() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="item">
               <div className="thumbnail" onClick={() => navigate("/productDetail")}>
                 <img src="/src/assets/image/seller3.png" />
@@ -135,7 +135,7 @@ function Shop() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="item">
               <div className="thumbnail" onClick={()=>navigate("/productDetail")}>
                 <img src="/src/assets/image/seller4.png" />
@@ -160,7 +160,7 @@ function Shop() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col col-lg-3 col-md-4 col-sm-6 col-12">
             <div className="item">
               <div className="thumbnail" onClick={()=>navigate("/productDetail")}>
                 <img src="/src/assets/image/seller5.png" />
