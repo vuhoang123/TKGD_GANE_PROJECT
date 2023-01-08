@@ -4,14 +4,25 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  height: 100vh;
+  @media screen and (max-width: 768px) {
+    background-image: linear-gradient(to right, #0f1131, #2e47ae, #2e47ae, #0d2f6f)
+  }
+
   a {
     transition: 0.3s all ease;
     color: #fc5252;
     text-decoration: none !important;
     outline: none !important;
   }
+
   .container {
     padding: 30px;
+
+    .mid-content {
+      width: 300px;
+    }
+
     .btn-start {
       font-size: 20px;
       background-color: #fc5252;
@@ -20,15 +31,19 @@
       padding: 15px;
       border-radius: 10px;
     }
+
     .login-wrap {
       position: relative;
       color: rgba(255, 255, 255, 0.9);
+
       h3 {
         font-weight: 300;
         color: white;
       }
+
       .social {
         width: 100%;
+
         .login-with-social-btn {
           transition: color 0.3s linear;
           width: 300px;
@@ -40,9 +55,11 @@
           color: #757575;
           font-size: 14px;
           font-weight: 600;
+
           &:hover {
             color: #fc5252;
           }
+
           i {
             margin-right: 10px;
             font-size: 18px;
@@ -75,22 +92,27 @@
       border-radius: 40px;
       padding-left: 20px;
       padding-right: 20px;
+
       &::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
         color: rgba(255, 255, 255, 0.8) !important;
       }
+
       &::-moz-placeholder {
         /* Firefox 19+ */
         color: rgba(255, 255, 255, 0.8) !important;
       }
+
       &:-ms-input-placeholder {
         /* IE 10+ */
         color: rgba(255, 255, 255, 0.8) !important;
       }
+
       &:-moz-placeholder {
         /* Firefox 18- */
         color: rgba(255, 255, 255, 0.8) !important;
       }
+
       &:hover,
       &:focus {
         background: transparent;
@@ -98,10 +120,12 @@
         box-shadow: none;
         border-color: rgba(255, 255, 255, 0.4);
       }
+
       &:focus {
         border-color: rgba(255, 255, 255, 0.4);
       }
     }
+
     textarea.form-control {
       height: inherit !important;
     }
@@ -149,7 +173,7 @@
 
     /* Show the checkmark when checked */
     .checkbox-wrap {
-      input:checked ~ .checkmark:after {
+      input:checked~.checkmark:after {
         display: block;
         content: "\f14a";
         font-family: "FontAwesome";
@@ -158,12 +182,12 @@
     }
 
     /* Style the checkmark/indicator */
-    .checkbox-wrap .checkmark:after {
-    }
+    .checkbox-wrap .checkmark:after {}
 
     .checkbox-primary {
       color: #fc5252;
-      input:checked ~ .checkmark:after {
+
+      input:checked~.checkmark:after {
         color: #fc5252;
       }
     }
@@ -175,30 +199,71 @@
       box-shadow: none !important;
       font-size: 15px;
       text-transform: uppercase;
+
       &:hover,
       &:active,
       &:focus {
         outline: none;
       }
+
       &.btn-primary {
         background: #fc5252 !important;
         border: 1px solid #fc5252 !important;
         color: black !important;
+
         &:hover {
           border: 1px solid #fc5252;
           background: transparent;
           color: #fc5252;
         }
+
         &.btn-outline-primary {
           border: 1px solid #fc5252;
           background: transparent;
           color: #fc5252;
+
           &:hover {
             border: 1px solid transparent;
             background: #fc5252;
             color: white;
           }
         }
+      }
+    }
+
+    @media screen and (max-width: 1250px) {
+      justify-content: space-between !important;
+
+      .left-content {
+        h1 {
+          font-size: 1, 5rem;
+        }
+      }
+
+      .mid-content {
+        width: 200px;
+      }
+    }
+
+    @media screen and (max-width: 922px) {
+      justify-content: center !important;
+      .left-content {
+        display: none;
+      }
+      .login-form{
+        width: 50% !important;
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+      .mid-content {
+        .logo{
+          display: none;
+        }
+      }
+      .login-form{
+        width: 100% !important;
       }
     }
   }
