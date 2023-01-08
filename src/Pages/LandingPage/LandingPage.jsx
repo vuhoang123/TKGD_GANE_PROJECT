@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./LandingPage.scss";
 import logoLanding from "/src/assets/image/Lol_worlds_logo.svg";
 function LandingPage() {

@@ -1,16 +1,16 @@
 import React from "react";
 import "./Header.scss";
 import logo from "/src/assets/image/logo.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
   return (
     <header id="Header">
       <nav className="navbar navbar-expand-lg navbar-light p-3 shadow-sm ">
         <div className="container">
-          <Link className="navbar-brand" to="/home">
+          <NavLink className="navbar-brand" to="/home">
             <img src={logo} />
-          </Link>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -47,18 +47,18 @@ function Header() {
             </div>
             <ul className="navbar-nav ms-auto ">
               <li className="nav-item">
-                <Link
+                <NavLink
                   className="nav-link mx-2 text-uppercase active"
                   aria-current="page"
                   to="/home"
                 >
                   HOME
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link mx-2 text-uppercase" to="news">
+                <NavLink className="nav-link mx-2 text-uppercase" to="news">
                   NEWS
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <a className="nav-link mx-2 text-uppercase" href="#">
@@ -66,9 +66,9 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link mx-2 text-uppercase" to="shop">
+                <NavLink className="nav-link mx-2 text-uppercase" to="shop">
                   SHOP
-                </Link>
+                </NavLink>
               </li>
             </ul>
             <ul className="navbar-nav ms-auto ">
@@ -78,9 +78,9 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link mx-2 text-uppercase" to="profile">
+                <NavLink className="nav-link mx-2 text-uppercase" to="profile">
                   <i className="fa-solid fa-circle-user me-1" /> Account
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>

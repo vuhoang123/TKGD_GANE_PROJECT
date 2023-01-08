@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { Checkbox, Divider } from "antd";
 const CheckboxGroup = Checkbox.Group;
 import "./Cart.scss";
+import { useNavigate } from "react-router-dom";
 
 function Cart() {
+  const navigate = useNavigate();
   return (
     <div className="Cart">
       <div className="container content">
@@ -28,10 +30,10 @@ function Cart() {
               </span>
               <div className="price">536.000 ₫</div>
               <div className="count">
-                  <div className="minus">-</div>
-                  <span className="num">1</span>
-                  <div className="plus">+</div>
-                </div>
+                <div className="minus">-</div>
+                <span className="num">1</span>
+                <div className="plus">+</div>
+              </div>
             </div>
           </div>
           <div className="cart-item">
@@ -49,10 +51,10 @@ function Cart() {
               </span>
               <div className="price">536.000 ₫</div>
               <div className="count">
-                  <div className="minus">-</div>
-                  <span className="num">1</span>
-                  <div className="plus">+</div>
-                </div>
+                <div className="minus">-</div>
+                <span className="num">1</span>
+                <div className="plus">+</div>
+              </div>
             </div>
           </div>
         </div>
@@ -76,7 +78,9 @@ function Cart() {
               <p>Tổng thanh toán</p>
               <span>0 đ</span>
             </div>
-            <button className="btn-buy">Thanh toán</button>
+            <button onClick={() => navigate("/payment")} className="btn-buy">
+              Thanh toán
+            </button>
           </div>
         </div>
       </div>

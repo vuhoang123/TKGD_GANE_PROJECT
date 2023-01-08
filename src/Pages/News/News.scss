@@ -1,6 +1,10 @@
 .news {
   text-align: start;
-
+  padding-top: 100px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
   .container {
     .bread {
       border-bottom: 3px solid #ffa3a3;

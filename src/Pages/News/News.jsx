@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./News.scss";
 import img1 from "/src/assets/image/news1.png";
 import img2 from "/src/assets/image/news2.png";
@@ -15,7 +16,10 @@ function News() {
             <div className="bread">
               <div className="title">Xu Hướng</div>
             </div>
-            <div className="content-box d-flex bg-light gap-3">
+            <Link
+              to="/newsDetail"
+              className="content-box d-flex bg-light gap-3"
+            >
               <img src={img1} />
               <div className="text">
                 <p className="title">
@@ -29,8 +33,11 @@ function News() {
                   đây..
                 </span>
               </div>
-            </div>
-            <div className="content-box d-flex bg-light gap-3">
+            </Link>
+            <Link
+              to="/newsDetail"
+              className="content-box d-flex bg-light gap-3"
+            >
               <img src={img2} />
               <div className="text">
                 <p className="title">
@@ -44,8 +51,11 @@ function News() {
                   đây..
                 </span>
               </div>
-            </div>
-            <div className="content-box d-flex bg-light gap-3">
+            </Link>
+            <Link
+              to="/newsDetail"
+              className="content-box d-flex bg-light gap-3"
+            >
               <img src={img3} />
               <div className="text">
                 <p className="title">
@@ -59,7 +69,7 @@ function News() {
                   đây..
                 </span>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="col-3">
             <div className="bread">
