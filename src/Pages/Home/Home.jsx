@@ -306,7 +306,7 @@ function Home() {
             </div>
           </div>
         </section>
-        <Link to="/forum" className="d-block button text-center mb-5">
+        <Link to="/forum-list" className="d-block button text-center mb-5">
           <button className="btn btn-more">GET MORE</button>
         </Link>
       </div>
