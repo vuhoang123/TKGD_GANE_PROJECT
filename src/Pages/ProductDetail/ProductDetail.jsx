@@ -20,11 +20,11 @@ function ProductDetail() {
         <div className="item-box">
           <div className="content">
             <div className="thumbnail">
-              <img className="w-100" src="/src/assets/image/Rectangle 21.png" />
+              <img className="w-100" src="/src/assets/image/seller4.png" />
             </div>
             <div className="detail">
               <span className="title">
-                Chuột máy tính có dây HXSJ A867 6400 DPI
+                Glorious Panda Tactile - 36 switch
               </span>
               <div className="vote">
                 <div className="star">
@@ -37,9 +37,9 @@ function ProductDetail() {
                 <span className="rate">Chưa có đánh giá</span>
               </div>
               <p className="brand">
-                Thương hiệu: <span>HXSJ</span>
+                Thương hiệu: <span>Glorious Panda Tactile</span>
               </p>
-              <div className="price">225.000 đ</div>
+              <div className="price">715.000₫</div>
             </div>
             <div className="action">
               <div className="sumary">
