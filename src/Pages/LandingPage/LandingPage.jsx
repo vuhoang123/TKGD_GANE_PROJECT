@@ -7,7 +7,7 @@ function LandingPage() {
     <div id="landing-page">
       <div className="container d-flex justify-content-center align-items-center h-100 w-100">
         <div className=" col-4 left-content">
-          <h1>SLOGAN</h1>
+          <h2>YOUR GAME - YOUR RULE</h2>
         </div>
         <div className="mid-content col-4">
           <div className="logo">

@@ -24,16 +24,16 @@ function Home() {
                   <div className="item text-center">
                     <div className="thumbnail">
                       <img
-                        src="/src/assets/image/seller5.png"
+                        src="/src/assets/image/keyboard.png"
                         alt="React Creative Agency"
+                        height="350"
                       />
                     </div>
                     <div className="content">
                       <h1>BÀN PHÍM</h1>
                       <div className="hover">
                         <p>
-                          Lorem ipsum dolor sit amet, conse ctetur adipiscing
-                          elit.
+                          Mọi bàn phím bạn cần đề ở đây, đủ kích cỡ, kiểu dáng.
                         </p>
                       </div>
                     </div>
@@ -43,16 +43,16 @@ function Home() {
                   <div className="item text-center">
                     <div className="thumbnail">
                       <img
-                        src="/src/assets/image/seller4.png"
+                        src="/src/assets/image/switch.png"
                         alt="React Creative Agency"
+                        height="350"
                       />
                     </div>
                     <div className="content">
                       <h1>SWITCH</h1>
                       <div className="hover">
                         <p>
-                          Lorem ipsum dolor sit amet, conse ctetur adipiscing
-                          elit.
+                          Tích hợp nhiều loại Switch cho bạn lựa chọn.
                         </p>
                       </div>
                     </div>
@@ -62,16 +62,16 @@ function Home() {
                   <div className="item text-center">
                     <div className="thumbnail">
                       <img
-                        src="/src/assets/image/seller3.png"
+                        src="/src/assets/image/keyboard2.png"
                         alt="React Creative Agency"
+                        height="350"
                       />
                     </div>
                     <div className="content">
                       <h1>CUSTOM</h1>
                       <div className="hover">
                         <p>
-                          Lorem ipsum dolor sit amet, conse ctetur adipiscing
-                          elit.
+                          Nhiều sản phẩm, nhiều lựa chọn hơn cho bạn.
                         </p>
                       </div>
                     </div>
@@ -81,16 +81,16 @@ function Home() {
                   <div className="item text-center">
                     <div className="thumbnail">
                       <img
-                        src="./src/assets/image/seller2.png"
+                        src="./src/assets/image/figure.png"
                         alt="React Creative Agency"
+                        height="350"
                       />
                     </div>
                     <div className="content">
                       <h1>TRANG TRÍ</h1>
                       <div className="hover">
                         <p>
-                          Lorem ipsum dolor sit amet, conse ctetur adipiscing
-                          elit.
+                          Vật dụng trang trí góc gaming của bạn.
                         </p>
                       </div>
                     </div>
@@ -100,16 +100,16 @@ function Home() {
                   <div className="item text-center">
                     <div className="thumbnail">
                       <img
-                        src="/src/assets/image/seller1.png"
+                        src="/src/assets/image/mouse.png"
                         alt="React Creative Agency"
+                        height="350"
                       />
                     </div>
                     <div className="content">
                       <h1>CHUỘT</h1>
                       <div className="hover">
                         <p>
-                          Lorem ipsum dolor sit amet, conse ctetur adipiscing
-                          elit.
+                          Đủ mọi loại chuột tha hồ cho bạn chọn.
                         </p>
                       </div>
                     </div>
@@ -119,16 +119,16 @@ function Home() {
                   <div className="item text-center">
                     <div className="thumbnail">
                       <img
-                        src="/src/assets/image/seller1.png"
+                        src="/src/assets/image/headphone.png"
                         alt="React Creative Agency"
+                        height="350"
                       />
                     </div>
                     <div className="content">
                       <h1>TAI NGHE</h1>
                       <div className="hover">
                         <p>
-                          Lorem ipsum dolor sit amet, conse ctetur adipiscing
-                          elit.
+                          Đa dạng tai nghe, từ màu sắc, kiểu dáng.
                         </p>
                       </div>
                     </div>
@@ -151,18 +151,14 @@ function Home() {
               <div className="work_content">
                 <div className="work_grid">
                   <div className="grid_item">
-                    <img src={img1} alt="img1" />
+                    <img src={img1} alt="img1" height="350"/>
                     <div className="detail">
                       <h3>ZEROS BỊ UNIVERSAL BAN</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        orem ipsum dolor sit amet, consectetur adipiscing
-                        elit.Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.
+                      Trong khoảng thời gian vừa qua, cộng đồng Esports Việt đang rất xôn xao về vấn đề Zeros (tên đầy đủ là Phạm Minh Lộc) bị BTC giải đấu VCS cấm vĩnh viễn khỏi giải đấu. Điều này bắt nguồn từ việc anh đã phát ngôn không đúng mực trên livestream cá nhân.
                       </p>
                       <Link to="/newsDetail">
-                        Read News <BsArrowRight className="arrow" />{" "}
+                        Chi tiết <BsArrowRight className="arrow" />{" "}
                       </Link>
                     </div>
                   </div>
@@ -171,14 +167,10 @@ function Home() {
                     <div className="detail">
                       <h3>CẬP NHẬT TIỀN MÙA GIẢI 2023</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        orem ipsum dolor sit amet, consectetur adipiscing
-                        elit.Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.
+                      Sau khi bản cập nhật LMHT 12.23 “trình làng”, Riot Games đã thông báo rằng sẽ có những thay đổi quan trọng xung quanh hệ thống Xếp hạng ở mùa giải 2023. Những thay đổi này sẽ sớm có mặt trên máy chủ PBE trong thời gian tới. Hiện tại, hệ thống Xếp hạng mới được Riot Games thông báo thay đổi như sau:
                       </p>
                       <Link to="/newsDetail">
-                        Read News <BsArrowRight className="arrow" />
+                        Chi tiết <BsArrowRight className="arrow" />
                       </Link>
                     </div>
                   </div>
@@ -187,14 +179,10 @@ function Home() {
                     <div className="detail">
                       <h3>LỐI CHƠI MỚI VỚI YASUO AP</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        orem ipsum dolor sit amet, consectetur adipiscing
-                        elit.Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.
+                      Yasuo - Kẻ bất dung thứ là vị tướng LMHT cực kỳ hot tại máy chủ Việt Nam nói riêng và thế giới nói chung với tỉ lệ chọn kỉ lục. Để thuần phục và đánh Yasuo hiệu quả không phải chuyện đơn giản. Bài viết sẽ hướng dẫn bạn cách chơi Yasuo guide mùa 11 qua bảng ngọc Yasuo, cách lên đồ Yasuo và combo skill chuẩn nhất.
                       </p>
                       <Link to="/newsDetail">
-                        Read News <BsArrowRight className="arrow" />
+                        Chi tiết <BsArrowRight className="arrow" />
                       </Link>
                     </div>
                   </div>
@@ -203,14 +191,10 @@ function Home() {
                     <div className="detail">
                       <h3>RA MẮT VALORANT MOBILE</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        orem ipsum dolor sit amet, consectetur adipiscing
-                        elit.Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit.
+                      Valorant Mobile bản chính có thể ra mắt vào nửa cuối năm 2022 hoặc 2023. Hiện chưa rõ ngày chính xác nhưng Anna Donlon - Riot Games chia sẻ rằng game đang trong quá trình hoàn thiện. Nhà sản xuất cho biết phiên bản di động sẽ sẵn sàng vào cuối năm 2022 này.
                       </p>
                       <Link to="/newsDetail">
-                        Read News <BsArrowRight className="arrow" />
+                        Chi tiết <BsArrowRight className="arrow" />
                       </Link>
                     </div>
                   </div>
